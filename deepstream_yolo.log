@@ -1,0 +1,29 @@
+Unknown key 'cluster-mode' for group [property]
+0:00:01.197018939  1887 0x563c87954ed0 INFO                 nvinfer gstnvinfer.cpp:638:gst_nvinfer_logger:<primary_gie> NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::deserializeEngineAndBackend() <nvdsinfer_context_impl.cpp:1900> [UID = 1]: deserialized trt engine from :/opt/nvidia/deepstream/deepstream-6.0/sources/yolov4-custom-hardik/yolov4.engine
+INFO: ../nvdsinfer/nvdsinfer_model_builder.cpp:610 [Implicit Engine Info]: layers num: 2
+0   INPUT  kFLOAT input           3x608x608       
+1   OUTPUT kFLOAT detections      159201x1x1      
+
+0:00:01.197091048  1887 0x563c87954ed0 INFO                 nvinfer gstnvinfer.cpp:638:gst_nvinfer_logger:<primary_gie> NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::generateBackendContext() <nvdsinfer_context_impl.cpp:2004> [UID = 1]: Use deserialized engine model: /opt/nvidia/deepstream/deepstream-6.0/sources/yolov4-custom-hardik/yolov4.engine
+0:00:01.197933015  1887 0x563c87954ed0 INFO                 nvinfer gstnvinfer_impl.cpp:313:notifyLoadModelStatus:<primary_gie> [UID 1]: Load new model:/opt/nvidia/deepstream/deepstream-6.0/sources/yolov4-custom-hardik/config_infer_primary.txt sucessfully
+
+Runtime commands:
+        h: Print this help
+        q: Quit
+
+        p: Pause
+        r: Resume
+
+** INFO: <bus_callback:194>: Pipeline ready
+
+** INFO: <bus_callback:180>: Pipeline running
+
+
+**PERF:  FPS 0 (Avg)
+**PERF:  148.62 (148.47)
+**PERF:  154.07 (151.70)
+** INFO: <bus_callback:217>: Received EOS. Exiting ...
+
+Quitting
+0:00:12.021840174  1887 0x563c87954ed0 ERROR                GST_BUS gstbus.c:1054:gst_bus_remove_watch:<bus1> no bus watch was present
+App run successful
